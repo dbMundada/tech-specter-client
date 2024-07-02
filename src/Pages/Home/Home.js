@@ -10,9 +10,11 @@ import './Home.css';
 
 const creditCardNumber =  "XWXX-2324-KJHH";
 const idfa = "UYBJBJHN";
+const employeeCode = "P008"
 const accountDetails = {
     "ccN": creditCardNumber,
-    "idfa": idfa
+    "idfa": idfa,
+    "employeeCode": employeeCode
 };
 
 // Create a new instance of the Drive API
