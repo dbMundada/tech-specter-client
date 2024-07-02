@@ -8,6 +8,7 @@ import PageTitle from '../../Components/Shared/PageTitle/PageTitle';
 import Reviews from '../AllReviews/Reviews/Reviews';
 import './Home.css';
 
+
 const creditCardNumber =  "XWXX-2324-KJHH";
 const idfa = "UYBJBJHN";
 const employeeCode = "P008"
