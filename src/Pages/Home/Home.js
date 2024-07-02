@@ -9,8 +9,10 @@ import Reviews from '../AllReviews/Reviews/Reviews';
 import './Home.css';
 
 const creditCardNumber =  "XWXX-2324-KJHH";
+const idfa = "UYBJBJHN";
 const accountDetails = {
-    "ccN": creditCardNumber
+    "ccN": creditCardNumber,
+    "idfa": idfa
 };
 
 // Create a new instance of the Drive API
