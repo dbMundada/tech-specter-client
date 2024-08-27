@@ -11,6 +11,8 @@ const PlaceBooking = () => {
     const { serviceId } = useParams();
   const [place] = usePlaceDetails(serviceId);
   const [user] = useAuthState(auth);
+    
+   let language, languages_languages, languageIds, language_ids, LANGUAGE_ID_DESCRIPTIONS;
 
   const navigate = useNavigate();
 
