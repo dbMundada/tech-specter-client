@@ -49,6 +49,7 @@ import AllPlaces from "./Pages/TravelPage/AllPlaces/AllPlaces";
 import PlaceDetails from "./Pages/TravelPage/PlaceDetails/PlaceDetails";
 import SinglePlace from "./Pages/TravelPage/SinglePlace/SinglePlace";
 
+
 function App() {
 
   return (
