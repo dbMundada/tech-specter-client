@@ -13,4 +13,5 @@ const usePlaceDetails = serviceId => {
   return [place]
 };
 
+
 export default usePlaceDetails;
