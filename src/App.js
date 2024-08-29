@@ -51,7 +51,6 @@ import SinglePlace from "./Pages/TravelPage/SinglePlace/SinglePlace";
 
 
 function App() {
-
   return (
     <div className="App">
       <BackToTop></BackToTop>
