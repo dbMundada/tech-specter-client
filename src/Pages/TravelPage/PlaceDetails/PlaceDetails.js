@@ -7,7 +7,6 @@ import { Link, useParams } from "react-router-dom";
 import PageTitle from "../../../Components/Shared/PageTitle/PageTitle";
 import usePlaceDetails from "../../../hooks/usePlaceDetails/usePlaceDetails";
 
-
 const PlaceDetails = () => {
     const { serviceId } = useParams();
     const [place] = usePlaceDetails(serviceId);
