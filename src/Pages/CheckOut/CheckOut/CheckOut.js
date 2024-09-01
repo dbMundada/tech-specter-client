@@ -9,6 +9,7 @@ import auth from "../../../firebase.init";
 import useCourseDetails from "../../../hooks/useCourseDetails/useCourseDetails";
 import "./CheckOut.css";
 
+
 const CheckOut = () => {
   const { serviceId } = useParams();
   const [course] = useCourseDetails(serviceId);
