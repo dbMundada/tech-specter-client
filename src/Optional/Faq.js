@@ -2,6 +2,7 @@ import React from 'react';
 import { Accordion, Container } from 'react-bootstrap';
 import PageTitle from '../Components/Shared/PageTitle/PageTitle';
 
+
 const Faq = () => {
     return (
         <Container>
