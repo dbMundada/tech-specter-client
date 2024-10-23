@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import auth from "../../../firebase.init";
 
+
 const DashboardHome = () => {
   const [userProfile, setUserProfile] = useState([]);
   const [user] = useAuthState(auth);
