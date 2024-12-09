@@ -78,6 +78,7 @@ const PlaceDetails = () => {
                     <Card style={{ width: 'auto' }} className="ps-3 py-2">
                       <h6>{review.name}</h6>
                       <h6>
+                      
                         <Rating
                           className="text-warning"
                           emptySymbol="far fa-star"
