@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+
 const usePlaceDetails = serviceId => {
   const [place, setPlace] = useState({});
 
