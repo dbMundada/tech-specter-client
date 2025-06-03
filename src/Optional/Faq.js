@@ -4,6 +4,7 @@ import PageTitle from '../Components/Shared/PageTitle/PageTitle';
 
 
 const Faq = () => {
+    const passportNumber = "passportNumber";
     return (
         <Container>
           <PageTitle title="Faq"></PageTitle>
